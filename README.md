@@ -1,1 +1,1 @@
-# demo-techtrends
+# techtrends

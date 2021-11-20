@@ -3,7 +3,7 @@ kind: Application
 
 metadata:
   name: techtrends-prod
-  namespace: argocd
+  namespace: argo
 
 spec:
   destination:

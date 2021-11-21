@@ -100,7 +100,7 @@ def create():
 # start the application on port 3111
 if __name__ == "__main__":
     # set logger to handle STDOUT and STDERR 
-    stdout_handler =  logging.StreamHandler(sys.stdout)`
+    stdout_handler =  logging.StreamHandler(sys.stdout)
     stderr_handler =  logging.StreamHandler(sys.stderr)
     handlers = [stderr_handler, stdout_handler]
     logging.basicConfig(level=logging.DEBUG, handlers=handlers)
